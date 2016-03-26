@@ -3,7 +3,7 @@
 shopt -s nullglob globstar
 
 DMENU=rofi
-DMENU_OPTS=-dmenu
+DMENU_OPTS='-dmenu -p pass:'
 
 typeit=0
 if [[ $1 == "--type" ]]; then
